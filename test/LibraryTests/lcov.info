@@ -1,4 +1,4 @@
-SF:/home/fernando/source/repos/PII_Observer_End/src/Library/Temperature.cs
+SF:C:\Users\sanbr\OneDrive\Escritorio\Programacion II\Observer\src\Library\Temperature.cs
 FN:12,System.Decimal Observer.Temperature::get_Degrees()
 FNDA:24,System.Decimal Observer.Temperature::get_Degrees()
 DA:13,24
@@ -18,40 +18,40 @@ BRH:0
 FNF:3
 FNH:3
 end_of_record
-SF:/home/fernando/source/repos/PII_Observer_End/src/Library/TemperatureReporter.cs
-FN:13,System.Void Observer.TemperatureReporter::StartReporting(Observer.ISubject`1<Observer.Temperature>)
+SF:C:\Users\sanbr\OneDrive\Escritorio\Programacion II\Observer\src\Library\TemperatureReporter.cs
+FN:11,System.Void Observer.TemperatureReporter::StartReporting(Observer.ISubject`1<Observer.Temperature>)
 FNDA:1,System.Void Observer.TemperatureReporter::StartReporting(Observer.ISubject`1<Observer.Temperature>)
+DA:12,1
+DA:13,1
 DA:14,1
 DA:15,1
 DA:16,1
-DA:17,1
-DA:18,1
-FN:20,System.Void Observer.TemperatureReporter::StopReporting()
+FN:18,System.Void Observer.TemperatureReporter::StopReporting()
 FNDA:1,System.Void Observer.TemperatureReporter::StopReporting()
+DA:19,1
+DA:20,2
 DA:21,1
-DA:22,2
-DA:23,1
-BRDA:22,12,0,1
-BRDA:22,12,1,1
-FN:25,System.Void Observer.TemperatureReporter::Update(Observer.Temperature)
+BRDA:20,12,0,1
+BRDA:20,12,1,1
+FN:23,System.Void Observer.TemperatureReporter::Update(Observer.Temperature)
 FNDA:3,System.Void Observer.TemperatureReporter::Update(Observer.Temperature)
+DA:24,3
+DA:25,3
 DA:26,3
-DA:27,3
-DA:28,3
+DA:27,1
+DA:28,1
 DA:29,1
 DA:30,1
-DA:31,1
-DA:32,1
+DA:32,2
+DA:33,2
 DA:34,2
 DA:35,2
-DA:36,2
-DA:37,2
-DA:38,3
-BRDA:28,49,0,1
-BRDA:28,49,1,2
-FN:6,System.Void Observer.TemperatureReporter::.ctor()
+DA:36,3
+BRDA:26,49,0,1
+BRDA:26,49,1,2
+FN:4,System.Void Observer.TemperatureReporter::.ctor()
 FNDA:2,System.Void Observer.TemperatureReporter::.ctor()
-DA:7,2
+DA:5,2
 LF:21
 LH:21
 BRF:4
@@ -59,7 +59,7 @@ BRH:4
 FNF:4
 FNH:4
 end_of_record
-SF:/home/fernando/source/repos/PII_Observer_End/src/Library/TemperatureSensor.cs
+SF:C:\Users\sanbr\OneDrive\Escritorio\Programacion II\Observer\src\Library\TemperatureSensor.cs
 FN:15,Observer.Temperature Observer.TemperatureSensor::get_Current()
 FNDA:15,Observer.Temperature Observer.TemperatureSensor::get_Current()
 DA:16,15

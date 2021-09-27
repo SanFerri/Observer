@@ -1,10 +1,8 @@
 namespace Observer
 {
-    public interface IObserver
+    public interface IObserver<T>
     {
-        void StartReporting(ISubject provider);
-        void StopReporting();
-        void Update(Temperature value);
+        void Update(T value);
     }
     
 }

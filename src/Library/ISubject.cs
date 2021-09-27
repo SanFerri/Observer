@@ -1,10 +1,9 @@
 namespace Observer
 {
-    public interface ISubject
+    public interface ISubject<T>
     {
-        void Unsubscribe(ISubject observer);
-        void Subscribe(ISubject observer);
-        void GetTemperature();  
+        void Unsubscribe(IObserver<T> observer);
+        void Subscribe(IObserver<T> observer);
     }
     
 }
